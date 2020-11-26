@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Charles logo" src="./assets/PL.png" style="width:200px;">>
-    <CI msg="Welcome to my Website"/>
+    <img alt="Charles logo" src="./assets/PL.png" style="width:200px;">
+    <CI msg="Charles Ingulli"/>
+    <contact msg="charlesfi@outlook.com"/>
   </div>
 </template>
 
@@ -24,6 +25,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  backgroundColor: #d3d3d3;
+  background-color: #d3d3d3;
 }
 </style>
