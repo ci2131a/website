@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
-  	<h1>Charles Ingulli</h1>
-  	<h4>charlesfi@outlook.com</h4>
+    <h1>Charles Ingulli</h1>
+    <h4>charlesfi@outlook.com</h4>
     <p>
-    	Welcome to my personal website! I am a recent graduate of American University. My studies include topics from the disciplines of statistics, mathematics, and data science. 
+      Welcome to my personal website! I am a recent graduate of American University. My studies include topics from the disciplines of statistics, mathematics, and data science. 
     </p>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
