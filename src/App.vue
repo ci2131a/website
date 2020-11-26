@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Charles logo" src="./assets/PL.png" style="width:200px;">>
-    <CI msg="Welcome to my Website"/>
+    <msg="Welcome to my Website"/>
   </div>
 </template>
 
@@ -22,7 +22,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #d3d3d3;
+  color: #2c3e50;
   margin-top: 60px;
+  backgroundColor: #d3d3d3;
 }
 </style>
