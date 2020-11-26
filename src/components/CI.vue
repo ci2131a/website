@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h4>{{ msg }}</h4>
+  	<h1>Charles Ingulli</h1>
+    <h4>charlesfi@outlook.com</h4>
     <p>
     Welcome to my personal website! I am a recent graduate of American University. My studies include topics from the disciplines of statistics, mathematics, and data science. 
     </p>

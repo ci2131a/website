@@ -1,8 +1,6 @@
 <template>
   <div id="app">
     <img alt="Charles logo" src="./assets/PL.png" style="width:200px;">
-    <CI msg="Charles Ingulli"/>
-    <contact msg="charlesfi@outlook.com"/>
   </div>
 </template>
 
