@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Charles logo" src="./assets/PL.png" style="width:200px;">
-    <CI msg>
+    <CI>
   </div>
 </template>
 
