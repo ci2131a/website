@@ -1,18 +1,28 @@
 <template>
-  <div id="app">
-    <CI>
+  <div id = "app">
+    <div class = "toprow">
+      <div class = "topimage">
+        <img src = "./assets/charlesface.jpg" class="pull-left" style="margin:20px 20px 20px 0; width:240px; height:auto;" />
+      </div>
+      <div class = "toptext">
+        <h1>Charles Ingulli</h1>
+        <h4>charlesfi@outlook.com</h4>
+      </div>
+    </div>
+    <CI/>
   </div>
 </template>
 
+
 <script>
-import CI from './components/CI.vue'
+import CI from "./components/CI.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     CI
   }
-}
+};
 </script>
 
 <style>
@@ -23,6 +33,12 @@ export default {
   text-align: center;
   color:  #000000;
   margin-top: 60px;
+}
+.toprow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
 }
 </style>
 
