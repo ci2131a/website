@@ -2,7 +2,7 @@
   <div class = main>
     <p> Welcome to my personal website! I am a recent graduate of American University. My studies include topics from the disciplines of statistics, mathematics, and data science. </p>
     <div>
-    <a href="../assets/My_CV.pdf">Curriculum Vitae</a>
+    <a href="My_CV.pdf">Curriculum Vitae</a>
     <h3>Notable Projects</h3>
     <h4>wlsd: Wrangling Longitudinal Surival Data</h4>
     </div>

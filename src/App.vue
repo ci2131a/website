@@ -7,7 +7,7 @@
       <div class = "toptext">
         <h1>Charles Ingulli</h1>
         <h2>charlesfi@outlook.com</h2>
-        <a href="/assets/My_CV.pdf">Curriculum Vitae</a>
+        <a href="My_CV.pdf">Curriculum Vitae</a>
       </div>
       <div class = "icons">
       </div>
