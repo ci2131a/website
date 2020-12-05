@@ -2,9 +2,9 @@
   <div class = main>
     <p> Welcome to my personal website! I am a recent graduate of American University. My studies include topics from the disciplines of statistics, mathematics, and data science. </p>
     <div>
-    <a href="../../public/My_CV.pdf">Curriculum Vitae</a>
-    <h3>Notable Projects</h3>
+    <h2>Notable Projects</h2>
     <h4>wlsd: Wrangling Longitudinal Surival Data</h4>
+    <p> Survival analysis data may come in different usable forms. Transitioning between formats requires detailed knowledge on how information is parsed and how variables are treated. The wlsd package in R provides methods for transforming data between usable formats in an effort to ease this process. wlsd can transition between the counting process format and longitudinal or panel format. It can also be used to create data formats suitable for count data regression </p>
     </div>
   </div>
 </template>
@@ -20,8 +20,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+p {
+	margin: 0px 300px 0px 300px;
+	text-align: left;
+}
+h2 {
+  margin: 40px 0px 10px 0px;
 }
 ul {
   list-style-type: none;

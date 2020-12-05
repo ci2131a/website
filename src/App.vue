@@ -6,10 +6,12 @@
       </div>
       <div class = "toptext">
         <h1>Charles Ingulli</h1>
-        <h2>charlesfi@outlook.com</h2>
-        <a href="../public/My_CV.pdf">Curriculum Vitae</a>
-      </div>
-      <div class = "icons">
+        <h3>charlesfi@outlook.com</h3>
+        <a href="My_CV.pdf">Curriculum Vitae</a>
+        <div class = "icons">
+         <a href="https://github.com/ci2131a"><img src="./assets/ghicon.svg" style="margin:10px 5px 5px 5px; width:23px; height:auto;"/></a>
+         <img src="./assets/PL.png" style="margin:10px 5px 5px 5px; width:auto; height:23px;">
+        </div>
       </div>
     </div>
     <CI/>
@@ -30,11 +32,13 @@ export default {
 
 <style>
 h1 {
-  line-height: 8px;
+  font-size: 42px;
+  line-height: 20px;
 }
-h2 {
+h3 {
   font-size: 16px;
-  line-height: 8px;
+  line-height: 3px;
+  font-weight:normal; 
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
