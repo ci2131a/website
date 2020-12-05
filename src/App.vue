@@ -6,7 +6,10 @@
       </div>
       <div class = "toptext">
         <h1>Charles Ingulli</h1>
-        <h4>charlesfi@outlook.com</h4>
+        <h2>charlesfi@outlook.com</h2>
+        <a href="/assets/My_CV.pdf">Curriculum Vitae</a>
+      </div>
+      <div class = "icons">
       </div>
     </div>
     <CI/>
@@ -26,6 +29,13 @@ export default {
 </script>
 
 <style>
+h1 {
+  line-height: 8px;
+}
+h2 {
+  font-size: 16px;
+  line-height: 8px;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
