@@ -7,10 +7,11 @@
       <div class = "toptext">
         <h1>Charles Ingulli</h1>
         <h3>charlesfi@outlook.com</h3>
-        <a href="My_CV.pdf">Curriculum Vitae</a>
+        <a href="CV.12.8.2020.pdf">Curriculum Vitae</a>
         <div class = "icons">
+         <a href="https://www.linkedin.com/in/charles-ingulli-a51157147/"><img src="./assets/linkedin23px.svg" style="margin:10px 5px 5px 5px; width:23px; height:auto;"/></a>
          <a href="https://github.com/ci2131a"><img src="./assets/ghicon.svg" style="margin:10px 5px 5px 5px; width:23px; height:auto;"/></a>
-         <img src="./assets/PL.png" style="margin:10px 5px 5px 5px; width:auto; height:23px;">
+         <img src="./assets/PL23px.svg" style="margin:10px 5px 5px 5px; width:auto; height:23px;">
         </div>
       </div>
     </div>
@@ -53,6 +54,9 @@ h3 {
   align-items: center;
   justify-content: center;
   vertical-align: middle;
+}
+a {
+  color: #42b983;
 }
 </style>
 
