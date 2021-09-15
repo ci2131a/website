@@ -9,7 +9,7 @@
         <h3>charlesfi@outlook.com</h3>
         <a href="CV.1.10.2021.pdf">Curriculum Vitae</a>
         <div class = "icons">
-         <a href="https://www.linkedin.com/in/charles-ingulli-ci111/"><img src="./assets/linkedin23px.svg" style="margin:10px 5px 5px 5px; width:23px; height:auto;"/></a>
+         <a href="https://www.linkedin.com/in/charles-ingulli/"><img src="./assets/linkedin23px.svg" style="margin:10px 5px 5px 5px; width:23px; height:auto;"/></a>
          <a href="https://github.com/ci2131a"><img src="./assets/ghicon.svg" style="margin:10px 5px 5px 5px; width:23px; height:auto;"/></a>
          <img src="./assets/PL23px.svg" style="margin:10px 5px 5px 5px; width:auto; height:23px;">
         </div>
