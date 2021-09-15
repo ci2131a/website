@@ -38,7 +38,14 @@ In order to actually make and observe changes on website, use the following step
 
 ## Notes
 
+Further reading for notes:
+https://docs.npmjs.com/
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+https://www.npmjs.com/package/gh-pages
+
 ### Environment Setup
+
+I will do this
 
 
 ### Domain Name
@@ -73,7 +80,7 @@ npm run serve
 ```
 
 #### Compiles and minifies for production
-The following code will run the `gh-pages-deploy.js` file and compile the Vue app to a functioning HTML file.
+The following code will run the `gh-pages-deploy.js` file and compile the Vue app to a functioning HTML file. (I think)
 ```
 npm run build
 ```
