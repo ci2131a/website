@@ -38,7 +38,14 @@ In order to actually make and observe changes on website, use the following step
 
 ## Notes
 
+Further reading for notes:
+https://docs.npmjs.com/
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+https://www.npmjs.com/package/gh-pages
+
 ### Environment Setup
+
+I will do this
 
 
 ### Domain Name
@@ -66,14 +73,14 @@ The following command is run in working directory to install or update necessary
 npm install
 ```
 
-##### Compiles and hot-reloads for development
+#### Compiles and hot-reloads for development
 This line will build and continuously run the project using a localhost port. It will automatically refresh to reflect any changes made while running. Use the cancel command (<kbd>CTRL</kbd>+<kbd>C</kbd>) to stop the build from running.
 ```
 npm run serve
 ```
 
 #### Compiles and minifies for production
-The following code will run the `gh-pages-deploy.js` file and compile the Vue app to a functioning HTML file.
+The following code will run the `gh-pages-deploy.js` file and compile the Vue app to a functioning HTML file. (I think)
 ```
 npm run build
 ```
@@ -93,6 +100,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 | ------------- |:-------------:| -------------|
 | 01/10/2021    | 1.0.0         | Initial version |
 | 07/21/2021    | 1.0.1         | Fix render issue |
-| 09//2021		| 1.0.1			| Update README |
+| 09/14/2021	| 1.0.1			| Update README |
 
 * The version number needs to be changed in the `package.json` and `package-lock.json` files. This is where you can set the name shown in the tab of a web browser for the website.
