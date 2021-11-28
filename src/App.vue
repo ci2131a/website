@@ -61,6 +61,9 @@ a {
   /*color: #42b983;*/
   color: #ff8000;
 }
+html {
+  background-color: #F0F0F0;
+}
 </style>
 
 <!--  color: #2c3e50; -->
