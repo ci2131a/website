@@ -16,6 +16,7 @@
       </div>
     </div>
     <CI/>
+    <a href = "subpage.html">SUB</a>
   </div>
 </template>
 
