@@ -1,6 +1,6 @@
 module.exports = {
 	pages: {
-    	index: './src/index/main.js',
-    	limon:'./src/limon/main.js'
+    	index: './src/pages/index/main.js',
+    	limon:'./src/pages/limon/main.js'
   }
 }

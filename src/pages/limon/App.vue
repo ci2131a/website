@@ -8,14 +8,13 @@
       </div>
     </div>
     <div class = main>
-    <b-container class = "maincontainer">
     <div class = "subcontainer">
     <h2>Background</h2>
 
     <h2>Ingredients</h2>
     <div>
       <ul>
-        <li>"8 Lemons"</li>
+        <li>8 Lemons</li>
         <li>1 Liter of grain alcohol (we use Everclear)</li>
         <li>4 pounds of sugar</li>
         <li>2.5 liters of whole milk (about a gallon)</li>
@@ -25,8 +24,8 @@
     <h2>Instructions</h2>
     <div>
       <ol class = "tab">
-        <li>1. Peel all 8 lemons.</li>
-        <li>2. Place the lemon peels into a jar and recycle the 8 lemons.</li>
+        <li>Peel all 8 lemons.</li>
+        <li>Place the lemon peels into a jar and recycle the 8 lemons.</li>
         <li>pour the 1 liter of grain alcohol into the jar with the peels and let the jar sit for a minimum of 3 days.</li> 
         <li>Strain the lemon peel alcohol mixture into another bottle to be used for later. discard the lemon peels.</li>
         <li>Measure 1.5 liters of whole milk to be placed in a large pot.</li>
@@ -41,7 +40,6 @@
       </ol>
     </div>
     </div>
-    </b-container>
     <div class = "feet">
       <footer>&copy; Copyright 2021 <a href = "https://ci2131a.github.io/mywebsite/" style = "text-decoration: none; color: inherit;">Charles</a> Ingulli</footer>
     </div>
@@ -123,11 +121,9 @@ a {
 }*/
 
 ul {
-  list-style-type: none;
-  padding: 0;
+  margin: 0% 0% 0% 0%;
 }
 li {
-  display: inline-block;
   margin: 0 10px;
 }
 
