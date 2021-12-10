@@ -52,7 +52,6 @@
       <footer>&copy; Copyright 2021 <a href = "https://ci2131a.github.io/mywebsite/" style = "text-decoration: none; color: inherit;">Charles</a> Ingulli</footer>
     </div>
   </div>
-    <a href = "limoncello.html">SUB</a>
   </div>
 </template>
 
