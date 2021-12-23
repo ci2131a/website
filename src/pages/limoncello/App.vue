@@ -39,6 +39,8 @@
         <li>Drink is best served chilled or over ice!</li>
       </ol>
     </div>
+    <h2>Video Tutorial</h2>
+    <p>When we were all a lot younger, my grandfather got the idea to make a video series of his limoncello recipe after his brother did something similar with his struffoli recipe. We filmed a ton of scenes over the course of, I believe, two video tutorials. I have included the first version below since both I and my brother were more heavily involved. My grandfather had given me his old home movie camera so I could film personal movies and thought it good to enlist me as the camera man. He was the obvious star of the show but my brother offered his services as assistant. After filming, my grandfather did some edits to the raw footage, converted all the VHS footage to DVD (we shot on an old VHS over the shoulder camera that we had mounted on a tripod), and made DVD cases with pictures and pamphlets (I will have to add some pictures). The final product here serves as a wonderful reminder to his passion project as well as give you a visual guide to the production process.</p>
     </div>
     <div class = "feet">
       <footer>&copy; Copyright 2021 <a href = "https://ci2131a.github.io/mywebsite/" style = "text-decoration: none; color: inherit;">Charles</a> Ingulli</footer>
