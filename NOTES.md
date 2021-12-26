@@ -105,5 +105,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 | 01/10/2021    | 1.0.0         | Initial version |
 | 07/21/2021    | 1.0.1         | Fix render issue |
 | 09/14/2021	| 1.0.1			| Update README |
+| 12/26/2021	| 1.1.0			| Add new page |
 
 * The version number needs to be changed in the `package.json` and `package-lock.json` files. This is where you can set the name shown in the tab of a web browser for the website.
