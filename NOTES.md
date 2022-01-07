@@ -1,6 +1,6 @@
 # Personal Website Repository Notes
 
-This repository holds all the code for the development version of my personal website. The final product of HTML and CSS is copied to the live version. There is probably a better way to do it but this works for me. An initial exercise was done with JT using Vue so this continues the use of that framework. The guide found at [this blog](https://blog.logrocket.com/build-deploy-vue-js-app-github-pages/) was consulted for confirmation that the setup was completed successfully. Josh was nice enough to assist with formatting issues as well when things hit the fan. 
+This repository holds all the code for the development version of my personal website. The final product is then copied to the live version repository. There is probably a better way to do it but this works for me. An initial exercise was done with JT using Vue so this continues the use of that framework. The guide found at [this blog](https://blog.logrocket.com/build-deploy-vue-js-app-github-pages/) was consulted for confirmation that the setup was completed successfully. Josh was nice enough to assist with formatting issues as well when things hit the fan. 
 
 ## Website Details
 
@@ -50,6 +50,10 @@ One time I thought I changed the font size but it was just the page zoom that ch
 
 Something that comes up frequently when I use Git Bash is that terminal screen that never seems to want to go away. Recently, it came up when I was trying to use `git revert` to go back to a previous commit after adding new commits locally. The new commits messed something up but I could not figure out where so I just reverted to a previous commit since the new ones had not been pushed and were sitting locally. Anyway, in this particular case it was <kbd>Esc</kbd><kbd>:</kbd><kbd>w</kbd><kbd>q</kbd><kbd>Enter</kbd> to save and exit the revert. To exit without saving, the keyboard combination of <kbd>Esc</kbd><kbd>:</kbd><kbd>q</kbd><kbd>!</kbd><kbd>Enter</kbd> will work. 
 
+
+For some reason there was an issue with some Git keys and this article helped: https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to .
+
+
 ### Environment Setup
 
 I will do this
@@ -69,12 +73,27 @@ If you would like to change the domain name that GitHub chooses then you will ha
 Check out [this article](https://hossainkhan.medium.com/using-custom-domain-for-github-pages-86b303d3918a) for a quick example of changing your GitHub Pages domain name. Check out GitHub's documentation for changing a domain name [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
 
+### Multiple Pages
+
+The multiple page Vue app required several changes that were not in the single page app that was originally set up. This [article](https://stackoverflow.com/questions/51692018/multiple-pages-in-vue-js-cli) was a helpful resource in setting up the pages configuration. Additionally, there is an [example repository](https://github.com/wandersonpjbkn/vue-mpa-application-example) to visualize the setup.  
+
+One of the steps elicited by the Stack Overflow question is to create a directory for each of the pages and place the app files in those corresponding directiories then place all of those directories into a pages directory. Now this step is noted to be optional but I am not sure if that is true. Every time that I tried to build a multiple page app with this step ignored, the app did not work properly. Unless there was another step that I was doing wrong, then it should have worked. However, it would not work so I was forced to implement this "optional" step in order to double check. The app did work but it is still unclear if this step was the cause.
+
+The major step was configuring the different app files in respective directories and noting the multiple pages in the `vue.config.js` file. In that file, you set the index file and specifiy its directory (this is effectively the home page) and then you name any pages with their associated dirrectories. Naming conventions for all these directories came up as something to determine what they should be. It is unclear whether they all need to be the same or if they can be different. I took the approach of just making them all the same. 
+
+Despite the hiccups, the current configuration supports two pages and hopefully more.
+
+
+
 ### Path Issues
 
 An issue arose which downed the live version of the website seemingly because of the development repository. For some reason, the development repository was hosting the development version of the site on GitHub pages and the live version website was pulling information from that directory. The development site was unable to be taken offline because GitHub was unable to delete the branch that was being hosted. Additionally, the public path of the development version being the GitHub host name followed by `/website/` was or was not that of the live version so was not or was conflicting with development version. Removing the public path resulted in blank website.
 
 
 github will always publish a site with a gh-pages branch as well as a pages branch apparently. So the main live version is at the domain ci2131a.github.io. I accuired a different domain so that has been changed to charlesingulli.com. Since github hosts any branch named pages, the development repository is hosted as a page 
+
+
+This article helped in setting environments for the development and production versions of the site https://stackoverflow.com/questions/65149203/why-my-vue-app-doesnt-appear-in-the-deploy-version. The 
 
 
 ### Video Files
