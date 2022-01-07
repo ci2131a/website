@@ -44,6 +44,12 @@ https://docs.npmjs.com/
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 https://www.npmjs.com/package/gh-pages
 
+One time I thought I changed the font size but it was just the page zoom that changed so take note of that. 
+
+### Useful Git
+
+Something that comes up frequently when I use Git Bash is that terminal screen that never seems to want to go away. Recently, it came up when I was trying to use `git revert` to go back to a previous commit after adding new commits locally. The new commits messed something up but I could not figure out where so I just reverted to a previous commit since the new ones had not been pushed and were sitting locally. Anyway, in this particular case it was <kbd>Esc</kbd><kbd>:</kbd><kbd>w</kbd><kbd>q</kbd><kbd>Enter</kbd> to save and exit the revert. To exit without saving, the keyboard combination of <kbd>Esc</kbd><kbd>:</kbd><kbd>q</kbd><kbd>!</kbd><kbd>Enter</kbd> will work. 
+
 ### Environment Setup
 
 I will do this
@@ -63,13 +69,20 @@ If you would like to change the domain name that GitHub chooses then you will ha
 Check out [this article](https://hossainkhan.medium.com/using-custom-domain-for-github-pages-86b303d3918a) for a quick example of changing your GitHub Pages domain name. Check out GitHub's documentation for changing a domain name [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
 
-### Issues
+### Path Issues
 
 An issue arose which downed the live version of the website seemingly because of the development repository. For some reason, the development repository was hosting the development version of the site on GitHub pages and the live version website was pulling information from that directory. The development site was unable to be taken offline because GitHub was unable to delete the branch that was being hosted. Additionally, the public path of the development version being the GitHub host name followed by `/website/` was or was not that of the live version so was not or was conflicting with development version. Removing the public path resulted in blank website.
 
 
 github will always publish a site with a gh-pages branch as well as a pages branch apparently. So the main live version is at the domain ci2131a.github.io. I accuired a different domain so that has been changed to charlesingulli.com. Since github hosts any branch named pages, the development repository is hosted as a page 
 
+
+### Video Files
+
+On the limoncello page, I placed a video file within the recipe to round out the page. Getting the video file to appear and render correctly was a little challenging. In addition to the issues of copying the video from DVD to digital (which I will touch on later), there was the issue of actually getting the video file to play with sound. For a time, I was using the `<video>` tag to source an `mp4` file and display it on the page. However, one of the files played without sound and another was too big to be pushed to GitHub. Git had this [large file storage extension](https://git-lfs.github.com/) which I looked at and installed but did not use. 
+
+
+Josh suggested just embedding a YouTube file onto the page as an easier solution. On my own, I came across this "[Vue YouTube Embed](https://www.npmjs.com/package/vue-youtube-embed)" component which I also installed but did not use. Ultimately, Josh just had me use an `iframe` to display the YouTube video. It works thus far and seems like the most reasonable method. The video sits on YouTube too so it can just be shared that way.
 
 ### Project setup (from npm Docs)
 The following command is run in working directory to install or update necessary dependencies and modules. I think it looks at the `package.json` and/or `package-lock.json` file(s).
