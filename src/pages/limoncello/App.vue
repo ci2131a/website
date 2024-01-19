@@ -1,5 +1,5 @@
 <template>
-  <div id = "limon">
+  <div id = "app">
     <div class = "toprow">
       <div class = "toptext">
         <h1>Ralph's Cream Limoncello</h1>
