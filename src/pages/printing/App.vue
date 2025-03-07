@@ -11,7 +11,7 @@
     
     <p>One of my favorite extracurriculars is 3D printing. It started as a result of my employment in DaBL. I have learned a lot about the process, industry, and application over the past several years and regard myself as quite knowledgable. Within DaBL, I have taught students, staff, and faculty the necessary information to operate the printers safely. I began printing on a Type A Series 1 Pro but as the company went out of business, it was discontinued from use. The printer market is somewhat volatile with a lot of entries and exits from the market. Now I use a Prusa i3 MK3S which produces some excellent results. I have also used a Formlabs Form 1+ but it is rather expensive and messy to use on an everyday basis. The Stratasys printer was the most involved as it required the use of a lye bath.</p>
     
-    <p>Throughout my printing history, I have made a number of objects for practical use such as the <a href = "/faceshield">face shields</a>. However, I do take the time to print fun objects that I often paint for decoration. Some of the designs come from the internet. The site known as <a href = "https://www.thingiverse.com/">Thingiverse</a> is an excellent place for open source designs that are ready to print. For example, one Halloween I print a copy of Mjolnir for my Thor costume. After the Avengers movie, I also printed the movie version of Stormbreaker. 
+    <p>Throughout my printing history, I have made a number of objects for practical use such as the <a href = "/faceshield">face shields</a>. However, I do take the time to print fun objects that I often paint for decoration. Some of the designs come from the internet. The site known as <a href = "https://www.thingiverse.com/">Thingiverse</a> is an excellent place for open source designs that are ready to print. For example, one Halloween I printed a copy of Mjolnir from the MCU for my Thor costume. After the Avengers Infinity War movie, I printed their version of Stormbreaker. 
       
       <div class = "imagerow">
         <img src = "@/assets/image3.jpg" style="margin:20px 20px 20px 0; width:240px; height:auto;" />
@@ -112,7 +112,6 @@ h3 {
         padding-right: 15%;
     }
 }
-
 
 
 .imagerow {
